@@ -1,0 +1,36 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0;
+
+}
+
+.text-primary {
+  border-bottom: 1px solid white;
+  padding: 15px;
+}
+
+
+button{
+  padding: 20px;
+  margin: 15px;
+}
+
+hr{
+  background: white;
+}
+
+.space-div {
+  padding: 25px;
+}
+.none{
+  display: none;
+}
+
+img {
+  margin: 20px;
+}
