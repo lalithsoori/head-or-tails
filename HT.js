@@ -2,6 +2,7 @@ function headTail() {
 
   // let removes = document.getElementById('lt');
   // lt.remove(lt.lastElementChild);
+  document.getElementById( 'gameresultfunction' ).removeChild( resultDiv ); 
   var computerchoice;
 
   computerchoice = resultToChoose( randomNumber() );
@@ -30,7 +31,7 @@ function result( computerchoice, message ) {
   }
   var resultDiv = document.createElement( 'div' );
   resultDiv.innerHTML = " <img src='" + imageData[ computerchoice ] + "'>"
-  document.getElementById( 'gameresultfunction' ).removeChild( resultDiv ); 
+
   document.getElementById( 'gameresultfunction' ).appendChild( resultDiv );
 
 
