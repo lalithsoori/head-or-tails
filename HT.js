@@ -1,6 +1,8 @@
 function headTail() {
   var computerchoice;
 
+  var resultDiv1 = document.remove( 'result-area' );
+
   computerchoice = resultToChoose( randomNumber() );
   console.log( computerchoice );
 
@@ -27,7 +29,6 @@ function result( computerchoice, message ) {
     'head': document.getElementById( 'letterH' ).src,
     'tail': document.getElementById( 'letterL' ).src
   }
-  var resultDiv = document.remove( '#result-area' );
   var resultDiv = document.createElement( 'div' );
 
 
