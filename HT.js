@@ -1,4 +1,7 @@
 function headTail() {
+
+  let removes = document.getElementById('gameresultfunction');
+  gameresultfunction.remove(gameresultfunction.lastElementChild);
   var computerchoice;
 
   computerchoice = resultToChoose( randomNumber() );
