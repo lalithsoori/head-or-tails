@@ -1,7 +1,7 @@
 function headTail() {
   var computerchoice;
 
-  var resultDiv1 = document.remove( 'result-area' );
+
 
   computerchoice = resultToChoose( randomNumber() );
   console.log( computerchoice );
