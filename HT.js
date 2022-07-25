@@ -27,8 +27,9 @@ function result( computerchoice, message ) {
     'head': document.getElementById( 'letterH' ).src,
     'tail': document.getElementById( 'letterL' ).src
   }
-
+  var resultDiv1 = document.remove( 'div' );
   var resultDiv = document.createElement( 'div' );
+
 
 
   resultDiv.innerHTML = " <img src='" + imageData[ computerchoice ] + "'>"
