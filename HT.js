@@ -30,7 +30,7 @@ function result( computerchoice, message ) {
   }
   var resultDiv = document.createElement( 'div' );
   resultDiv.innerHTML = " <img src='" + imageData[ computerchoice ] + "'>"
-
+  document.getElementById( 'gameresultfunction' ).remove( resultDiv ); 
   document.getElementById( 'gameresultfunction' ).appendChild( resultDiv );
 
 
