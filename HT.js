@@ -1,8 +1,6 @@
 function headTail() {
   var computerchoice;
 
-
-
   computerchoice = resultToChoose( randomNumber() );
   console.log( computerchoice );
 
@@ -30,9 +28,6 @@ function result( computerchoice, message ) {
     'tail': document.getElementById( 'letterL' ).src
   }
   var resultDiv = document.createElement( 'div' );
-
-
-
   resultDiv.innerHTML = " <img src='" + imageData[ computerchoice ] + "'>"
 
   document.getElementById( 'gameresultfunction' ).appendChild( resultDiv );
