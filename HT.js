@@ -2,7 +2,7 @@ function headTail() {
 
   // let removes = document.getElementById('lt');
   // lt.remove(lt.lastElementChild);
-  document.getElementById( 'gameresultfunction' ).removeChild('resultDiv'); 
+  document.getElementByClass( 'resultDiv' ).removeChild(); 
   var computerchoice;
 
   computerchoice = resultToChoose( randomNumber() );
