@@ -27,7 +27,7 @@ function result( computerchoice, message ) {
     'head': document.getElementById( 'letterH' ).src,
     'tail': document.getElementById( 'letterL' ).src
   }
-  var resultDiv1 = document.remove( 'div' );
+  var resultDiv = document.remove( '#result-area' );
   var resultDiv = document.createElement( 'div' );
 
 
